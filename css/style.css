@@ -1,0 +1,134 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Boogaloo&family=VT323&display=swap');
+
+:root {
+    --blue: #0449FF;
+    --red: #FF2920;
+
+    --font: 'Boogaloo', cursive;
+}
+
+* {
+    font-family: var(--font);
+    font-size: 1em;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100vh;
+    width: 100vw;
+    background: url('../images/banner.jpg') no-repeat;
+    background-size: auto;
+}
+
+body {
+    width: 700px;
+    margin: auto;
+    margin-top: 20px;
+    background-color: white;
+    border-radius: 50px;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.95);
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#vs_logo {
+    height: 70px;
+    width: 70px;
+    background: url('../images/vs_logo.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: auto;
+    margin-top: -10px;
+    border-radius: 50%;
+}
+
+header>ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px 20px;
+    margin: 5px;
+    padding: 0;
+    list-style-type: none;
+}
+
+header>ul>li {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+header>ul>li>img {
+    width: 50px;
+    height: 50px;
+    margin-right: 5px;
+    flex-shrink: 0;
+    border-radius: 5px;
+}
+
+header>section {
+    height: 80px;
+    width: 35%;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 15px;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+}
+
+main>section {
+    margin: 10px;
+    border-radius: 15px;
+    border: 2px solid var(--blue);
+    box-shadow: 0px 0px 5px var(--blue);
+}
+
+main>section>h2 {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+}
+
+main>section>ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px 20px;
+    margin: 5px;
+    padding: 0;
+    list-style-type: none;
+}
+
+main>section>ul>li {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+main>section>h2,
+main>section>p {
+    text-align: center;
+}
+
+main>section>p {
+    color: var(--red);
+}
+
+section>ul>li>img {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    flex-shrink: 0;
+    border-radius: 5px;
+}
