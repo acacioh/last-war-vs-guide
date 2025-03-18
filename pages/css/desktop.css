@@ -46,17 +46,3 @@ article {
 main section article img {
     height: 110px;
 }
-
-footer>section {
-    width: 400px;
-    height: 110px;
-}
-
-footer>section>nav>a>img {
-    height: 35px;
-}
-
-footer>section>p {
-    margin-top: 3px;
-    font-size: 1.2em;
-}
