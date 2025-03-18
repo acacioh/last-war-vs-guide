@@ -72,8 +72,11 @@ th {
 
 td {
     height: 50px;
+    text-align: center;
+    vertical-align: middle;
 }
 
+th:first-child,
 td:first-child {
     position: sticky;
     left: 0;
@@ -84,6 +87,8 @@ td:first-child {
 .icon {
     height: 30px;
     width: 30px;
+    display: block;
+    margin: auto;
 }
 
 .error {
@@ -102,6 +107,21 @@ td:first-child {
 
 main section {
     margin: 20px;
+}
+
+article {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+main section article img {
+    height: 60px;
+}
+
+#alert {
+    color: var(--red);
 }
 
 footer {

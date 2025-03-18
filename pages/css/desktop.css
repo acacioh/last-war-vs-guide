@@ -6,6 +6,7 @@
 
 body {
     width: 750px;
+    margin-top: 20px;
     background-color: rgba(0, 0, 0, 0);
 }
 
@@ -14,26 +15,36 @@ body {
     width: 125px;
 }
 
-header>ul {
-    grid-template-columns: repeat(2, 1fr);
+table {
+    margin: 20px;
+    max-width: 710px;
 }
 
-header>ul>li>img {
-    width: 80px;
-    height: 80px;
-    border-radius: 10px;
+thead {
+    font-size: 0.8em;
 }
 
-section>ul>li>img {
-    width: 50px;
+.icon {
     height: 50px;
-    border-radius: 5px;
+    width: 50px;
 }
 
-#vs_attack {
-    height: 120px;
-    width: 400px;
-    border-radius: 20px;
+.error,
+.success {
+    background-size: 25px;
+}
+
+main section {
+    margin: 30px;
+    margin-left: 50px;
+}
+
+article {
+    margin-bottom: 30px;
+}
+
+main section article img {
+    height: 110px;
 }
 
 footer>section {
