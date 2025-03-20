@@ -108,6 +108,7 @@ td:first-child {
 main section {
     margin: 20px;
     margin-left: 30px;
+
 }
 
 article {
@@ -125,8 +126,14 @@ article {
     height: 40px;
 }
 
+main section p {
+    text-align: center;
+}
+
 #radar {
-    width: 100px;
+    width: 250px;
+    display: block;
+        margin: 0 auto;
 }
 
 #alert {
