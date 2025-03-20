@@ -117,8 +117,16 @@ article {
     margin-bottom: 10px;
 }
 
-main section article img {
+#tech_center_vs {
     height: 60px;
+}
+
+#shield {
+    height: 40px;
+}
+
+#radar {
+    width: 100px;
 }
 
 #alert {

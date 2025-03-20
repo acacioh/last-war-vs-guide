@@ -43,6 +43,14 @@ article {
     margin-bottom: 30px;
 }
 
-main section article img {
+#tech_center_vs {
     height: 110px;
+}
+
+#shield {
+    height: 80px;
+}
+
+#radar {
+    width: 200px;
 }
